@@ -1,8 +1,10 @@
-def hello():
+def hello() -> str:
+    """Функция возвращает строку hello"""
     return 'hello'
 
 
-def summ(a, b):
+def summ(a: int | float, b: int | float) -> int | float:
+    """Функция суммы двух чисел"""
     return a + b
 
 
