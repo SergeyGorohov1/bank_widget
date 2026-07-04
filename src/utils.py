@@ -1,6 +1,7 @@
 def hello() -> str:
     """Функция возвращает строку hello"""
-    return 'hello world'
+    return 'world hello'
+
 
 
 def summ(a: int | float, b: int | float) -> int | float:
