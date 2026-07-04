@@ -1,4 +1,5 @@
-def hello():
+def hello() -> str:
+    """Функция возвращает строку hello"""
     return 'hello'
 
 
