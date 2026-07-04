@@ -3,7 +3,8 @@ def hello() -> str:
     return 'hello'
 
 
-def summ(a, b):
+def summ(a: int | float, b: int | float) -> int | float:
+    """Функция суммы двух чисел"""
     return a + b
 
 
